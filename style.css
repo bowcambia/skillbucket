@@ -7,11 +7,14 @@
     font-family: Verdana, Arial, Sans-Serif;
     opacity: 0.5;
 }
-#banner 
+.banner 
 {
-	text-align: center; 
-	padding: 50px;
-	
+	display: block;
+	text-align:center;
+	margin-left: auto;
+    margin-right: auto;
+	width:250px;
+	height:auto;
 }
 
 #disappear 
