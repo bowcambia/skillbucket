@@ -32,3 +32,21 @@ div
 {
 	font-family:georgian;
 }
+
+body
+{
+	background-color:#F8F8F8 ;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+#big_container
+{
+	margin-left:25px;
+	margin-right:25px;
+	background-color:#E8E8E8 ;
+}
+
+html, body {
+    height:100%;
+}
