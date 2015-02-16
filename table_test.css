@@ -13,7 +13,7 @@ tr,td
 	width:16%;
 }
 
-.table {
+.table,.table2 {
     margin: 0 auto;
 	border: 1px solid black;
 	border-collapse: collapse;
@@ -40,6 +40,11 @@ div
 {
 	color:white;
 	background-color:navy;
+}
+
+.border
+{
+	border:1px solid black;
 }
 
 div {
