@@ -1,16 +1,26 @@
-$(document).ready
-(
-    function() 
-    {
-        // $('div').slideDown('slow');
-		$('#disappear').fadeOut(1000);
-    }
-);
+$(document).ready(function() {
+   $('div').mouseenter(function() 
+   {
+       $(this).animate({
+           height: '+=10px'
+       });
+   });
+   
+   $('div').mouseleave(function() {
+       $(this).animate({
+           height: '-=10px'
+       });
+   });
+   
+   $('th').hover(function(){
+    $(this).toggleClass('highlight');
+});
 
-$('.table').hover(
-  function() {
-    $(this).addClass('highlight');
-  }, function() {
-    $(this).removeClass('highlight');
-  }
-)
+   $('td').hover(function(){
+    $(this).toggleClass('highlight');
+});
+   
+   $('div').click(function() {
+       $(this).toggle(1000);
+   }); 
+});
