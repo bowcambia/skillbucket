@@ -5,7 +5,17 @@
 	<link rel='stylesheet' type='text/css' href='table_test.css'/>
 	<script type="text/javascript" src="jquery2.js"></script>
 	<script type="text/javascript" src="table_script.js"></script>
-	
+	<script>
+		function myFunction() {
+		alert("hey");
+		var table = document.getElementById("myTable");
+		var row = table.insertRow(0);
+		var cell1 = row.insertCell(0);
+		var cell2 = row.insertCell(1);
+		cell1.innerHTML = "NEW CELL1";
+		cell2.innerHTML = "NEW CELL2";
+	</script>
+}
 </head>
 
 <!-- The main content of the page -->
@@ -93,5 +103,10 @@
 	<div class="boxdiv" id="yellow"></div>
 	<div class="boxdiv" id="green"></div>
 	
+	<br/><br/>
+	
+	<a href="../skillbucket/table_test.html">Table stuff</a>
+	<a href="../skillbucket/js_test.html">JavaScript stuff</a>
+	<a href="../skillbucket/index.html">Home</a>
 </body>
 </html>

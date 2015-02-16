@@ -28,7 +28,7 @@ $(document).ready(function() {
 			// and apply the border class to all TD cells in table2 class
 	$('.table2').hover(function(){
     $(this).toggleClass('border');
-	$('table2 > td').toggleClass('border');
+	$('table2 td').toggleClass('border');
 });
    
 });
