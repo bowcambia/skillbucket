@@ -15,12 +15,12 @@ $(document).ready(function() {
 // ********** Custom for table_test.html *********  
 
 // When you hover over a TH cell, apply the highlight class to it
-   $('th').hover(function(){
+   $('.table2 th').hover(function(){
     $(this).toggleClass('highlight');
 });
 
 // When you hover over a TD cell, apply the highlight class to it
-   $('td').hover(function(){
+   $('.table2 td').hover(function(){
     $(this).toggleClass('highlight');
 });
 
