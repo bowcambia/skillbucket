@@ -1,0 +1,121 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body 
+{
+	background: none;
+}
+
+.full 
+{
+	 background: url(http://www.workathome481.com/uploads/Loops-Background.jpg) no-repeat center center fixed; 
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+}
+
+html, body 
+{
+    height: 100%;
+	margin: 0;
+    padding: 0;
+	font-family:'Tahoma',serif;
+}
+
+body
+{
+	
+}
+
+.top-container
+{	
+	padding:0px;
+}
+
+.bottom-container
+{
+	height:100%;
+	background-color:white;
+}
+
+html
+{
+	 position: relative;
+	 min-height: 100%;
+}
+
+.navbar-brand
+{
+	font-size: 22px;
+	color: yellow;
+}
+
+.navbar-brand:hover
+{
+	color:gold;
+}
+
+.navbar, .navbar-fixed-top
+{
+	background-color:navy;
+}
+
+.row
+{
+	max-height:85px;
+	overflow:hidden;
+	height:100%;
+	margin-right: 0px;
+	margin-left:0px;
+}
+
+.col-md-6-left
+{
+	min-height:85px;
+}
+
+.col-md-6-right
+{
+	min-height:85px;
+	height:auto;
+}
+
+.navtable-image
+{
+	height:30px;
+	width:auto;
+}
+
+.navtable-link
+{
+	color:navy;
+	font-weight:bold;
+}
+
+a
+{
+	color:silver;
+}
+
+.footer
+{
+padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.footer > table
+{
+	color:black;
+	width:100%;
+	background-color:silver;
+}
+
+.right-side
+{
+	text-align:right;
+}
